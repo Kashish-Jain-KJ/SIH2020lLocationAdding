@@ -121,7 +121,7 @@ public class ListItemDetail extends AppCompatActivity {
 }
     public void No(View view)
     {
-        Log.d("data", idd);
+        Log.d("dataa", idd);
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         DocumentReference washingtonRef = db.collection("Location").document(idd);
 
